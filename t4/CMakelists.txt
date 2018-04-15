@@ -1,0 +1,4 @@
+# Created by Aliben July 17, 2017
+
+PROJECT(NEWHELLO)
+ADD_SUBDIRECTORY(src bin)

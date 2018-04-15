@@ -1,0 +1,6 @@
+INCLUDE_DIRECTORIES(~/src/CCpp/cmakeLearning/t3a/lib)
+#INCLUDE_DIRECTORIES(/Users/aliben/src/CCpp/cmakeLearning/t3a/lib)
+
+LINK_DIRECTORIES(/Users/aliben/src/CCpp/cmakeLearning/t3a/build/lib)
+ADD_EXECUTABLE(main main.cpp)
+TARGET_LINK_LIBRARIES(main libhello.dylib)
